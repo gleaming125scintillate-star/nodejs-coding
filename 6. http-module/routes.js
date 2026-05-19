@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
     res.end("Home Page");
   } else if (url === "/projects") {
     res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end("Projects Page");
+    res.end("Projects");
   } else {
     res.writeHead(404, { "Content-Type": "text/plain" });
     res.end("This Page can not be found");
