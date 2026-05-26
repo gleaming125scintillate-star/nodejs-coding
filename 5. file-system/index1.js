@@ -4,6 +4,7 @@ const fs = require('fs');
 const dataFolder = path.join(__dirname, 'data2');
 console.log(dataFolder);
 
+
 if (!fs.existsSync(dataFolder)) {
     fs.mkdirSync(dataFolder);
     console.log('Data2 folder created');   

@@ -17,7 +17,6 @@ console.log(filePath);
 fs.writeFileSync(filePath, 'Hello from node js');
 console.log('file created successfully');
 
-
 const readContentFromFile = fs.readFileSync(filePath, 'utf8');
 console.log(readContentFromFile);
 
